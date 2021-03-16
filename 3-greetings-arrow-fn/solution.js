@@ -5,8 +5,7 @@ const greet = (userName) => {
 
   return `Hello ${userName}`;
 };
-
-console.log(greet(""));
-console.log(greet("Hugh"));
-console.log(greet("Eduardo"));
-console.log(greet("Shari"));
+alert(greet("Hugh"));
+alert(greet("Eduardo"));
+alert(greet("Shari"));
+alert(greet(""));
